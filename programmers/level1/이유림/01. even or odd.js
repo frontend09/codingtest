@@ -15,3 +15,8 @@ function solution(num) {
    return("Odd");
   }
 }
+
+// 삼항 연산자 이용 
+function solution(num) {
+  return (num % 2) ?  "Odd" : "Even";
+}
